@@ -1,0 +1,875 @@
+.DS_STORE
+node_modules
+scripts/flow/*/.flowconfig
+.flowconfig
+*~
+*.pyc
+.grunt
+_SpecRunner.html
+__benchmarks__
+build/
+remote-repo/
+coverage/
+.module-cache
+fixtures/dom/public/react-dom.js
+fixtures/dom/public/react.js
+test/the-files-to-test.generated.js
+*.log*
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+/dist 
+/.parcel-cache
+
+packages/react-devtools-core/dist
+packages/react-devtools-extensions/chrome/build
+packages/react-devtools-extensions/chrome/*.crx
+packages/react-devtools-extensions/chrome/*.pem
+packages/react-devtools-extensions/firefox/build
+packages/react-devtools-extensions/firefox/*.xpi
+packages/react-devtools-extensions/firefox/*.pem
+packages/react-devtools-extensions/shared/build
+packages/react-devtools-extensions/.tempUserDataDir
+packages/react-devtools-inline/dist
+packages/react-devtools-shell/dist
+packages/react-devtools-timeline/dist
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+dist/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+*.env
+*.venv
+.venv
+env/
+venv/
+*env/
+*venv/
+**/venv/
+**/.env/
+**/env/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+node_modules
+target
+dist
+logs
+public
+.cache
+.vscode
+.DS_Store
+.idea
+.next
+yarn-error.log
+npm-debug.log
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+.next
+# General Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.log
+*.bak
+*.swp
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Python distribution packages
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Ignore large datasets and model files (audio, video, models)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.h5  # Model files (Keras)
+*.pkl  # Model files (Pickle)
+*.pt  # PyTorch model files
+*.hdf5  # Keras model files
+*.tar.gz
+*.zip
+
+# Ignore large training data files
+train_data/
+test_data/
+data/
+datasets/
+
+# Temporary files created by ML tools
+output/
+logs/
+
+# PyTorch and TensorFlow checkpoints
+*.ckpt
+*.pth
+*.tflite
+
+# Ignore data files from libraries (e.g., from Hugging Face, TensorFlow Datasets)
+data/
+downloads/
+
+# Ignore configuration files for specific tools
+.idea/
+.vscode/
+
+# Ignore model training checkpoints (can be large)
+checkpoint/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+# Ignore all .exe files
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# Ignore all .exe files
+*.exe
+
+# Ignore all .mp4 files
+*.mp4
+*.svg
+*.txt
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and database files
+logs/
+*.log
+*.sqlite3
+
+# Data files
+*.csv
+*.h5
+*.parquet
+*.feather
+*.pkl
+*.joblib
+
+# ML artifacts
+model/
+checkpoints/
+*.ckpt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Cache and temporary files
+cache/
+*.cache
+*.tensorboard
+wandb/
+mlruns/
+__pycache__/
+
+# IDE / Editor-specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore PowerPoint files
+*.ppt
+*.pptx
+
+# Ignore PDF files
+*.pdf
+
+# Ignore text files
+*.txt
+
+# Ignore all image file types
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+*.heic
+*.heif
+*.avif
+
+# Ignore common large file types
+*.iso
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flac
+*.wav
+*.exe
+*.dmg
+*.pkg
+*.jar
+*.war
+*.so
+*.dll
+*.bin
+
+# Ignore large logs and temp files
+*.log
+*.tmp
+*.cache
+# Ignore all video file types
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+*.wmv
+*.webm
+*.mpeg
+*.mpg
+*.3gp
+*.ogv
+
+# Ignore all audio file types
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+*.opus
+*.amr
+
+# Ignore all Excel file types
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.xltm
+*.ods
+
+# Ignore CSV files
+*.csv
+
+# Ignore text files
+*.txt
+
+# ========== PYTHON ==========
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/*.egg
+**/*.egg-info/
+**/.Python
+
+# Environments
+**/env/
+**/ENV/
+**/.env
+**/.venv/
+**/venv/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Django
+**/db.sqlite3
+**/media/
+**/staticfiles/
+
+# Flask / FastAPI
+**/instance/
+
+# Packaging
+**/dist/
+**/build/
+
+# Testing & Coverage
+**/.tox/
+**/.coverage
+**/.cache
+**/htmlcov/
+**/coverage.xml
+**/*.cover
+**/*.py,cover
+
+# Typing
+**/.mypy_cache/
+**/.pyre/
+
+# ========== NODE.JS ==========
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+**/.npm/
+**/.nvm/
+
+# ========== REACT ==========
+**/build/
+**/public/static/
+**/.next/
+**/.parcel-cache/
+**/.turbo/
+**/coverage/
+**/.eslintcache
+
+# ========== COMMON FILES ==========
+# Logs
+**/*.log
+
+# IDEs
+**/.idea/
+**/.vscode/
+
+# Images
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.ico
+**/*.svg
+**/images/
+
+# Data Files
+**/*.csv
+**/*.tsv
+**/*.txt
+**/*.xls
+**/*.xlsx
+**/*.json
+**/*.xml
+**/*.yaml
+**/*.yml
+
+# Document Files
+**/*.pdf
+**/*.doc
+**/*.docx
+
+# Models / Binaries
+**/*.h5
+**/*.hdf5
+**/*.pkl
+**/*.joblib
+**/*.pt
+**/*.onnx
+**/*.pb
+**/*.tflite
+**/*.bin
+**/*.ckpt
+
+# ========== OS / SYSTEM ==========
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# ========== DOCKER ==========
+**/*.pid
+**/*.pidfile
+**/docker-compose.override.yml
+# Python cache and builds
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/*.egg
+**/*.egg-info/
+**/dist/
+**/build/
+
+# Jupyter
+**/.ipynb_checkpoints/
+**/*.nbconvert.ipynb
+
+# Virtual envs (any level)
+**/env/
+**/venv/
+**/.venv/
+
+# Logs and output
+**/*.log
+**/*.out
+**/*.err
+
+# Data and models
+**/*.csv
+**/*.tsv
+**/*.zip
+**/*.tar.gz
+**/*.h5
+**/*.hdf5
+**/*.pkl
+**/*.joblib
+**/*.npy
+**/*.npz
+**/*.pt
+**/*.ckpt
+**/*.onnx
+
+# IDE and editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+
+# Configs and misc
+.env
+.env.*
+*.bak
+*.tmp
+*.swp
+# Ignore Python bytecode and optimized files in any folder
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test/coverage reports and similar artifacts
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django artifacts
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask artifacts
+instance/
+.webassets-cache
+
+# Scrapy artifacts
+.scrapy
+
+# Sphinx documentation builds
+docs/_build/
+
+# PyBuilder build
+.pybuilder/
+target/
+
+# Jupyter Notebook & IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Virtual Environments (matches any folder named env or similar)
+.env
+*.env
+*.venv
+.venv
+env/
+venv/
+*env/
+*venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Type checkers and debugging caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# IDE / Editor-specific directories and settings (anywhere)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.cache
+
+# Archives and media files (adjust as necessary)
+*.iso
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flac
+*.wav
+
+# Documents (adjust as necessary)
+*.pdf
+*.doc
+*.docx
+
+# Node.js dependencies
+node_modules/
+
+# ML / Data Science artifacts
+data/
+downloads/
+checkpoint/
+*.ckpt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
