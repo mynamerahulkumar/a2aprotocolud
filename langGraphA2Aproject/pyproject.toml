@@ -1,5 +1,5 @@
 [project]
-name="a2a-langgraph"
+name = "a2a-langgraph"
 version = "0.1.0"
 description = "Currency conversion agent example"
 readme = "README.md"
@@ -15,4 +15,3 @@ dependencies = [
     "python-dotenv>=1.1.0",
     "uvicorn>=0.34.2",
 ]
-
